@@ -1,0 +1,159 @@
+/*  */
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e2f0fd;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* height: 350px; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.56);
+    padding: 20px 25px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-title {
+    padding-bottom: 10px;
+}
+
+.option1 {
+    width: 200px;
+    /* height: 250px; */
+    border: 1px solid #65727a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.options-btn {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-btn {
+    width: 80px;
+    border: 1px solid #65727a;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 7px 7px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.option-brightness {
+    margin: 10px 0;
+}
+
+.option-brightness label {
+    font-size: 14px;
+}
+
+.details-p {
+    font-size: 14px;
+}
+
+.icons {
+    margin: 10px 10px 15px 0;
+}
+
+.icon {
+    /* border: 1px solid #fff; */
+    background-color: #324452;
+    color: #dbe4e8;
+    padding: 5px 13px;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.option2 {
+    /* background-color: red; */
+    width: 485px;
+    height: 276px;
+    border-radius: 5px;
+}
+
+.option2 img {
+    /* display: flex; */
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.buttons .right {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.left .btn {
+    border: 1px solid #324452;
+}
+
+.right .one {
+    background-color: #324452;
+    color: #fff;
+}
+
+.right .two {
+    background-color: #4c76e9;
+    color: #fff;
+    margin-left: 7px;
+}
+
+.active {
+    background-color: #4c74ed;
+    color: #fff;
+}
+
+input[type="file"] {
+    display: none;
+}

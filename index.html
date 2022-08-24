@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/editor2/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h2>Easy Image Editor</h2>
+        </div>
+        <div class="options">
+            <div class="option1">
+                <div class="options-title">
+                    <h3>Filters</h3>
+                </div>
+                <div class="options-btn">
+                    <div class="flex">
+                        <div class="option-btn Brightness">Brightness</div>
+                        <div class="option-btn Saturation">Saturation</div>
+                    </div>
+                    <div class="flex">
+                        <div class="option-btn Inversion">Inversion</div>
+                        <div class="option-btn Grayscale">Grayscale</div>
+                    </div>
+                </div>
+                <div class="option-brightness">
+                    <label for="" id="clickBtn">Brightness</label>
+                    <input type="range" class="straighting-input" id="input" />
+                </div>
+
+                <div class="item item3">
+                    <p class="details-p">Rotate & Flip</p>
+                    <div class="icons">
+                        <ul>
+                            <li class="icon" id="rotate-left">1</li>
+                            <li class="icon" id="rotate-right">2</i>
+                            </li>
+                            <li class="icon" id="flip1">3</li>
+                            <li class="icon" id="flip2">4</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="option2">
+
+                <img src="" class="image" alt="" id="chosen-img">
+
+
+            </div>
+
+
+        </div>
+        <div class="buttons">
+
+            <div class="left">
+                <div class="btn" id="reset">Reset Filters</div>
+            </div>
+            <div class="right">
+
+
+                <!-- <div type="file" class="btn one" id="choose"><input type="file" id="upload-btn" accept="image/*"> Choose Image</div> -->
+                <label for="upload-btn" class="btn one" id="choose"><input type="file" id="upload-btn" accept="image/*"> Choose Image</label>
+                <div class="btn two" id="save">Save Image</div>
+            </div>
+        </div>
+    </div>
+    <script src="/editor2/file-saver.js"></script>
+    <script src="/editor2/index.js"></script>
+</body>
+
+</html>
