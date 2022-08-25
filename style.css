@@ -57,6 +57,11 @@ ul {
     display: flex;
 }
 
+.value span {
+    font-size: 12px;
+    margin-left: 70px;
+}
+
 .options-btn {
     width: 180px;
     display: flex;
@@ -103,8 +108,8 @@ ul {
 
 .option2 {
     /* background-color: red; */
-    width: 485px;
-    height: 276px;
+    max-width: 485px;
+    max-height: 276px;
     border-radius: 5px;
 }
 

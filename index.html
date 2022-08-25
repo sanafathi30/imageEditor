@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/editor2/style.css" />
+    <link rel="stylesheet" href="/imageEditor/style.css" />
     <title>Document</title>
 </head>
 
@@ -30,8 +30,16 @@
                     </div>
                 </div>
                 <div class="option-brightness">
-                    <label for="" id="clickBtn">Brightness</label>
-                    <input type="range" class="straighting-input" id="input" />
+                    <div class="value">
+                        <label for="" id="clickBtn">Brightness</label>
+                        <span class="range-value">100%</span>
+                    </div>
+
+
+                    <input type="range" class="straighting-input" id="input" min="0" max="200" value="100" />
+
+
+
                 </div>
 
                 <div class="item item3">
@@ -66,14 +74,14 @@
             <div class="right">
 
 
-                <!-- <div type="file" class="btn one" id="choose"><input type="file" id="upload-btn" accept="image/*"> Choose Image</div> -->
-                <label for="upload-btn" class="btn one" id="choose"><input type="file" id="upload-btn" accept="image/*"> Choose Image</label>
+
+                <label for="upload-btn" class="btn one" id="choose"><input type="file" id="upload-btn" class="file-input" accept="image/*"> Choose Image</label>
                 <div class="btn two" id="save">Save Image</div>
             </div>
         </div>
     </div>
-    <script src="/editor2/file-saver.js"></script>
-    <script src="/editor2/index.js"></script>
+    <script src="/imageEditor/file-saver.js"></script>
+    <script src="/imageEditor/index.js"></script>
 </body>
 
 </html>
